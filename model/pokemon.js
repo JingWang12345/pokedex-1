@@ -1,8 +1,9 @@
 class Pokemon{
 
-    constructor(name, stats=[]){
+    constructor(name, stats=[], image){
         this.name = name;
         this.stats = stats;
+        this.image = image;
     }
 
     addStat(name, baseValue){
