@@ -55,8 +55,8 @@ let actualPage;
 loadNextPage()
 
 function loadNextPage(){
-    if (actualPage === undefined) {
-        actualPage = 0;
+    if (actualPageIndex === undefined) {
+        actualPageIndex = 0;
     } else {
         actualPageIndex++;
     }
