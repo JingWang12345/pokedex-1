@@ -17,7 +17,7 @@ PokeService.getDetail(pokemonName).then(pokemonObject => {
     console.log('pokemon', myPokemon);
     for (let i = 0; i < pokemonObject.stats.length; i++) {
         const statObject = pokemonObject.stats[i];
-        myPokemon.addStat(statObject.stat.name, statObject.base_stat)
+        myPokemon.addStats(statObject.stat.name, statObject.base_stat)
     }
     console.log('pokemon', myPokemon);
     displayPokemon(myPokemon);
