@@ -21,15 +21,15 @@ PokeService.getDetail(pokemonName).then(pokemonObject => {
 
 function displayPokemon(pokemon){
 document.getElementById('pokemon-name').innerHTML = pokemon.name;
-
+console.log(pokemon);
 const statsContainer = document.getElementById('pokemon-stats');
 for (const stat of pokemon.stats) {
     statsContainer.innerHTML +=`<li><strong>${stat.name}</strong>${stat.baseValue}</li>`
 }
 
-const typeContainer = document.getElementById('pokemon-types');
+const typesContainer = document.getElementById('pokemon-types');
 for (const type of pokemon.types) {
-    typeContainer.innerHTML +=`<li><strong>${type.name}</strong>${type.url}</li>`
+    typesContainer.innerHTML += `<li><a href="./type.html?typeUrl=${type.url}"><strong>${type.name}</strong></a></li>`
 }
      
 }

@@ -11,7 +11,7 @@ class Pokemon{
         this.stats.push(newStat);
     }
     addType(name, url){
-        const newType = new TypeError(name, url);
+        const newType = new Type(name, url);
         this.types.push(newType);
     }
 
