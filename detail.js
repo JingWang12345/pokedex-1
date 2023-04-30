@@ -39,7 +39,7 @@ function createNewPokemon(pokemonObject) {
 
     for (let i = 0; i < pokemonObject.stats.length; i++) {
         const statObject = pokemonObject.stats[i];
-        myPokemon.addStats(statObject.stat.name, statObject.base_stat)
+        myPokemon.addStat(statObject.stat.name, statObject.base_stat)
     }
 
     for (let i = 0; i < pokemonObject.types.length; i++) {

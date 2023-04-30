@@ -25,26 +25,26 @@
 //     document.getElementById('pokemon-container').innerHTML = html;
 
 
-//     // //////////// map
-//     // const stringArray = []
+//     //////////// map
+//     const stringArray = []
 
-//     // for (let i = 0; i < actualPage.results.length; i++) {
-//     //     const pokemon = actualPage.results[i];
+//     for (let i = 0; i < actualPage.results.length; i++) {
+//         const pokemon = actualPage.results[i];
 
-//     //     const pokemonHtml =`<div><strong>${pokemon.name}</strong></div>`;
+//         const pokemonHtml =`<div><strong>${pokemon.name}</strong></div>`;
 
-//     //     stringArray.push(pokemonHtml);
+//         stringArray.push(pokemonHtml);
         
-//     // }
+//     }
 
-//     // ///join
-//     // const allHtml = stringArray.join('')
+//     ///join
+//     const allHtml = stringArray.join('')
 
 
-//     // ///innerHTML
-//     // const pokemonContainer = document.getElementById('pokemon-container');
+//     ///innerHTML
+//     const pokemonContainer = document.getElementById('pokemon-container');
 
-//     // pokemonContainer.innerHTML = allHtml;
+//     pokemonContainer.innerHTML = allHtml;
 // }
 
 
